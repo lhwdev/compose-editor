@@ -1,0 +1,11 @@
+{
+  "name": "@compose-editor/model",
+  "version": "0.1.0",
+  "type": "module",
+  "imports": {
+    "#/*": "./src/*"
+  },
+  "dependencies": {
+    "@types/node": "catalog:"
+  }
+}

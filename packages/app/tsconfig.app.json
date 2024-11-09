@@ -1,0 +1,15 @@
+{
+  "extends": "../../config/tsconfig.dom.json",
+  "compilerOptions": {
+    "paths": {
+      // Hacky way around package.json imports, as vscode does not support subpath imports yet
+      // Will be fixed in typescript@5.7.0 (See https://github.com/microsoft/TypeScript/pull/57718)
+      "#/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
